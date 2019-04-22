@@ -1,0 +1,64 @@
+html, body{ /* setting the default text/font-fam for both*/
+	font-family: arial, sans-serif;
+	margin: 0;/*white gaps around the page disappear*/
+}
+
+header{
+	background-color: #00004C;
+	padding: 40px;
+	text-align: center;/*this aligns the header (h1) AND header img*/
+}
+
+h1{
+	font-size: 90px;
+	color: white;
+}
+
+ header img{
+ 	border-radius: 174px;
+ 	width: 300px; /* don't need to change height because it auto-resizes with width & vice-versa*/
+ 	border: 24px solid #CC0000; /*google "color picker"*/ 
+ }
+
+.content{/*addresses the content element on index line 14-36*/
+	max-width: 900px; /*so it doesn't always span so wide*/
+	margin: 0 auto;/*0 for top+bottom, auto=left+right*/
+	padding: 0 20px;/*leaves some white space on L+R*/
+}
+
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{/*addresses line 24 of index*/
+	font-size: 16px;
+	color: lightgray;
+	font-style: italic;/*so it actually looks like a caption*/
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{/*all the links*/
+	color: red;
+	text-decoration: none;
+}
+
+
+footer{
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: #e6e6e6
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
